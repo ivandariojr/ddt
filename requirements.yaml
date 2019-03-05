@@ -1,0 +1,18 @@
+name: DDT
+dependencies:
+- python=3.6.3
+- matplotlib=2.2.2
+- numpy=1.15.0
+- cython=0.28.3
+- pip:
+    - ete3==3.1.1
+    - pytest==4.0.2
+    - tensorboard==1.9.0
+    - tensorboardX==1.4
+    - gym==0.10.5
+    - skorch==0.5.0.post0
+    - torchvision==0.2.1
+    - torch==0.4.1
+    - seaborn==0.9.0
+    - scipy==1.1.0
+    - scikit-learn==0.20.2
